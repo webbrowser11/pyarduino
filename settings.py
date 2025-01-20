@@ -1,4 +1,4 @@
-# Py Arduino Tool 2025, webbrowser11
+# Pyino Tool 2025, webbrowser11
 # Run Python Code From Your Arduino.
 
 import serial # IGNORE
