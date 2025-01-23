@@ -14,7 +14,7 @@ def run_python_code(): # IGNORE
 
 command = arduino.readline().decode("utf-8").strip() # IGNORE
 if command == "run_python_code": # IGNORE
-    print("Looks like the arduino is to run your code!") # IGNORE
+    print("Looks like the arduino is ready to run your code!") # IGNORE
     result = run_python_code() # IGNORE
     arduino.write((result + '\n').encode('utf-8')) # IGNORE
 
